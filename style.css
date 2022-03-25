@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    text-decoration: none;
+  }
+  .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .all{
+    background:#B8E4F0;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+.home{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.leftContent{
+  padding: 2%;
+  justify-items: center;
+  align-content: center;
+  height: fit-content;
+
+    
+
+}
+.title-text{
+  text-align: center;
+}
+.title-text h1{
+  font-weight: 600;
+  color: #7267CB;
+}
+.left{
+    position: relative;
+    background-color: #98BAE7;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    /* padding: 2rem,2rem,2rem,2rem; */
+}
+.right{
+  width: 100%;
+  background: #7267CB;
+  height: 100vh;
+  /* justify-content: end; */
+  /* align-content: flex-start; */
+  /* text-align: -webkit-center; */
+    
+}
+h5{
+  font-weight: 600;
+  font-size: 20px;
+}
+.right-list{
+  margin: 2%;
+}
+.table{
+  position:relative;
+  height: 450px;
+  overflow: auto;
+
+}
+
+img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.greet-avt{
+  display: flex;
+  /* text-align: center; */
+
+  justify-content: space-between;
+  /* align-content: center; */
+}
+.greet-avt #greeting{
+  color:#7267CB;
+  align-self: center;
+}
+.leftContent{
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.rightContent{
+  position: relative;
+  background: #B8E4F0;
+  margin: 2%;
+  /* max-height: 500px; */
+  overflow: auto;
+  height: 450px;
+  /* width: 400px; */
+}
+td{
+  cursor: pointer;
+}
+ul{
+  columns: 2;
+  column-gap: normal;
+position: relative;
+/* list-style: none; */
+font-size: 16px;
+/* overflow: hidden; */
+/* justify-content: space-between; */
+}
+.listdiv{
+  position: relative;
+  /* overflow: scroll; */
+}
+@media screen and (max-width: 1045px){
+  .home{
+    display: block;
+  }
+  h5{
+    /* font-weight: 600; */
+    font-size: 17px;
+  }
+
+}
+@media screen and (max-width: 749px){
+  .table{
+    font-size: 13px;
+  }
+  ul{
+  font-size: 13px;
+  }
+  .greet-avt #greeting{
+    font-size: 20px;
+  }
+  .leftContent{
+    max-height: 500px;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 629px){
+  .table{
+    font-size: 10px;
+    /* max-height: 450px; */
+    /* overflow: scroll; */
+  }
+  .leftContent{
+    max-height: 500px;
+    overflow: auto;
+  }
+
+}
+@media screen and (max-width: 1440px){
+  
+  .rightContent{
+    
+    overflow: auto;
+    height: 483px;
+    /* width: 400px; */
+  }
+}
